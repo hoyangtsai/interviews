@@ -76,6 +76,6 @@ promise.then(() => {
 });
 ```
 
-## Appendix
+## Reference
 
 <https://skilled.dev/course/build-a-javascript-promise>

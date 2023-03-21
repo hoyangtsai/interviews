@@ -54,6 +54,6 @@ function solution(S, C) {
 
 ```
 
-## Appendix
+## Reference
 
 <https://leetcode.ca/2020-03-26-1578-Minimum-Deletion-Cost-to-Avoid-Repeating-Letters/>

@@ -33,6 +33,6 @@ function getSubstringCount(s) {
 }
 ```
 
-## Appendix
+## Reference
 
 <https://leetcode.com/problems/count-binary-substrings/>

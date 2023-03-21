@@ -99,7 +99,8 @@ console.log(countRotate([3, 4, 5, 0, 1, 2])) // 3
 console.log(countRotate([4, 5, 6, 7, 0, 1, 2])) // 4
 ```
 
-### Appendix
+### Reference
 
-[153. Find Minimum in Rotated Sorted Array - Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)<br/>
+[Find Minimum in Rotated Sorted Array - Leetcode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+
 <https://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/>

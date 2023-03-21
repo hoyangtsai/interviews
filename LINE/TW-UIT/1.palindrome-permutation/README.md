@@ -52,6 +52,6 @@ process.stdin.on('end', function () {
 });
 ```
 
-## Appendix
+## Reference
 
-<https://leetcode.com/problems/palindrome-permutation/description/>
+[Palindrome Permutation - Leetcode](https://leetcode.com/problems/palindrome-permutation/description/)

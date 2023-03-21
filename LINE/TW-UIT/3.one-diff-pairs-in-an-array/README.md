@@ -81,6 +81,6 @@ process.stdin.on('end', function () {
 });
 ```
 
-## Appendix
+## Reference
 
-<https://leetcode.com/problems/k-diff-pairs-in-an-array/>
+[K-diff Pairs in an Array - Leetcode](https://leetcode.com/problems/k-diff-pairs-in-an-array/)
