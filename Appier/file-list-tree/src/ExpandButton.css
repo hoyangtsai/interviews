@@ -1,0 +1,11 @@
+.expand-button {
+  background: transparent;
+  border: 0;
+  padding: 0 8px;
+
+  cursor: pointer;
+}
+
+.expand-button:focus {
+  outline: 0;
+}

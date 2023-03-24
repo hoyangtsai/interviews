@@ -1,0 +1,91 @@
+.notification-list__item {
+  display: flex;
+  height: 90px;
+  padding: 12px 20px 12px 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.notification-list__item.is-unread {
+  background-color: #ecf2fe;
+}
+
+.notification-list__item.is-unread:hover:not(.is-unread) {
+  background-color: #f1f2f5;
+}
+
+.notification-list__item.is-unread .notification-list__dot {
+  display: inline-block;
+}
+
+.notification-list__item.is-unread .notification-list__title {
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.notification-list__item.is-unread .notification-list__detail {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.notification-list__container {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: center;
+}
+
+.notification-list__content {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.notification-list__extra {
+  flex: 0 1 80px;
+  text-align: right;
+}
+
+.notification-list__dot {
+  position: absolute;
+  display: none;
+  width: 6px;
+  height: 6px;
+  left: 0;
+  top: 8px;
+  background-color: #0052d9;
+  border-radius: 50%;
+}
+
+.notification-list__title {
+  position: relative;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 22px;
+  padding-left: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.notification-list__title + .notification-list__details {
+  margin-top: 4px;
+}
+
+.notification-list__details,
+.notification-list__time {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.notification-list__details {
+  display: -webkit-box;
+  color: rgba(0, 0, 0, 0.26);
+  padding: 0 5px 0 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.notification-list__time {
+  color: rgba(0, 0, 0, 0.4);
+}

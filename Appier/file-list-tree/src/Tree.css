@@ -1,0 +1,25 @@
+.node-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.node > .node-list {
+  /* Indent the nested NodeList */
+  padding-left: 20px;
+  height: auto;
+  overflow: hidden;
+  /* transform: scaleY(1);
+  transform-origin: 50% 0%; */
+  transition: all 0.8s;
+}
+
+.node > .node-list.expanded {
+  height: 0;
+  /* transform: scaleY(0); */
+  pointer-events: none;
+}
+
+.node input {
+  margin-right: 8px;
+}

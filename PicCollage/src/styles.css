@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --fruit1: "🍌";
+  --fruit2: "🍎";
+  --fruit3: "🍊";
+  --fruit4: "🍉";
+  --fruit5: "🥭";
+}
+
+.emoji {
+  display: inline-block;
+  position: absolute;
+}
+
+.emoji:hover {
+  transform: scale(10);
+}
+
+.emoji.animate:before {
+  content: var(--fruit1);
+  animation: fruitChange 10s infinite;
+}
+
+@keyframes fruitChange {
+  20% {
+    content: var(--fruit1);
+  }
+  40% {
+    content: var(--fruit2);
+  }
+  60% {
+    content: var(--fruit3);
+  }
+  80% {
+    content: var(--fruit4);
+  }
+  100% {
+    content: var(--fruit5);
+  }
+}
