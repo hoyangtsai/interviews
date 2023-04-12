@@ -1,0 +1,64 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.thead {
+  color: #7a7a7a;
+}
+
+.thead > span {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  width: 100%;
+  min-width: 800px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+}
+
+li > span {
+  display: block;
+  width: 100%;
+  padding-right: 2em;
+}
+
+li > span:first-child {
+  width: 25%;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 12px;
+  font-style: normal;
+  border-radius: 3px;
+  padding: 2px 4px;
+}
+
+.tag.s-0 {
+  color: rgb(50, 50, 50);
+  border: 1px solid rgba(120, 119, 119, 0.7);
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+.tag.s-1 {
+  color: rgb(160, 125, 0);
+  border: 1px solid rgba(198, 185, 0, 0.7);
+  background-color: rgba(254, 224, 50, 0.2);
+}
+
+.tag.s-2 {
+  color: rgb(255, 50, 50);
+  border: 1px solid rgba(255, 88, 88, 0.7);
+  background-color: rgba(253, 66, 66, 0.2);
+}
