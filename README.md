@@ -12,3 +12,5 @@
 - [TSMC](./TSMC/)
 - ASUS
   - [AICS](./ASUS/AICS)
+- KKday
+  - [Front-end Engineer - EC Dashboard](./KKday/f2e-ec-dashboard/)

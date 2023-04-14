@@ -1,6 +1,3 @@
-// you can write to stdout for debugging purposes, e.g.
-// console.log('this is a debug message');
-
 function solution(S) {
 
     function isSymmetric(i, j) {
@@ -17,7 +14,7 @@ function solution(S) {
     let l = 0, r = S.length - 1;
 
     while (l < r) {
-        if ()
+        // if ()
 
         l++;
         r--;

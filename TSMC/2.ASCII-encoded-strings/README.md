@@ -16,12 +16,6 @@ Given a string, decode it following the steps mentioned above.
 
 The table below shows the conversion from the string `Hacker Rank` to the ASCI string `729799107101114328297110107`
 
-<style>
-th {
-    display: none;
-}
-</style>
-
 |             |    |    |    |     |     |     |    |    |     |     |
 | ----------- | -- | -- | -- | --- | --- | --- | -- | -- | --- | --- |
 | **Character**   | H  | a  | c  | k   | e   | r   | R  | a  | n   | k   |
