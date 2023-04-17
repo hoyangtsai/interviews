@@ -28,9 +28,9 @@ tree_to: The nodes on which the edge is incident
 
 ### Constraints
 
-- $1 <= tree\_nodes <= 10^5$
-- $|tree\_from| = |tree\_to| = tree\_nodes - 1$
-- $1 <= tree\_from_i,\ tree\_to_j <= tree\_nodes$
+- $1 <= tree\\_nodes <= 10^5$
+- $|tree\\_from| = | tree\\_to | = tree\\_nodes - 1$
+- $1 <= tree\\_from_i,\ tree\\_to_j <= tree\\_nodes$
 
 ## Sample Case 0
 
