@@ -5,7 +5,7 @@ Given a 4 x 4 matrix mat, the initial energy is 100. The task is to reach the la
 The matrix can be traversed in the following way:
 
 1. Start with any cell in the first row.
-2. In each move, traverse from cell `(i, j)` of the `ith` row and `jth` column to any existing cell out of `(i + 1, j - 1)`, `(i + 1, j)` or `(i + 1, j + 1)`
+2. In each move, traverse from cell `(i, j)` of the $i^{th}$ row and $j^{th}$ column to any existing cell out of `(i + 1, j - 1)`, `(i + 1, j)` or `(i + 1, j + 1)`
 3. Finish the traversal in the last row.
 
 After stepping on a cell `(i, j)`, energy decreases by `mat[i][j]` units. Find the maximum possible energy left at the end of

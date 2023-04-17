@@ -35,22 +35,21 @@ For reference, the characters in s correspond to the following ASCII values:
 
 Complete the function decode in the editor below.
 
-decode has the following parameter(s):
-  _string encoded_: an encoded string
+decode has the following parameter(s):  
+  <span style="display:inline-block; text-indent: 1em;">_string encoded_: an encoded string</span>
 
-Returns:
-  _string_: the original decoded string
+Returns:  
+  <span style="display:inline-block; text-indent: 1em;">_string_: the original decoded string</span>
 
-Constraints
+### Constraints
 
-- 1 <= |s| <= 10^5
-- s[i] is an ascii character in the range [A-Za-2] or a space character
-
+- $1 <= |s| <= 10^5$
+- `s[i]` is an ascii character in the range `[A-Za-2]` or a space character
 
 <details>
   <summary>Sample Case 0</summary>
 
-__Sample Input__
+### Sample Input
 
 ```c
 STDIN                                                 Function
@@ -58,13 +57,13 @@ STDIN                                                 Function
 23511011501782351112179911801562340161171141148   →   string decode = "23511011501782351112179911801562340161171141148"
 ```
 
-__Sample Output__
+### Sample Output
 
 ```txt
 Truth Always Wins
 ```
 
-__Explanation__
+### Explanation
 
 Reverse _encoded_ to get _84114117116104326510811997121115328710511011522_. Then replace each ASCII value with its corresponding character
 </details>

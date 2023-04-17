@@ -1,6 +1,6 @@
 # Minimum Deletion Cost to Avoid Repeating Letters
 
-You are given a string `S`. Deletion of the K-th letter of `S` costs `C[K]`. After deleting a letter, the costs of deleting other letters do not change.
+You are given a string `S`. Deletion of the $K^{th}$ letter of `S` costs `C[K]`. After deleting a letter, the costs of deleting other letters do not change.
 You want to delete some letters from S to obtain a string without two identical letters next to each other. What is the minimum total cost of deletions to achieve such a string?
 
 **Example 1:**
