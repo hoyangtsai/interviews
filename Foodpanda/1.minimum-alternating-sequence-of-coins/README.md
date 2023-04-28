@@ -6,7 +6,7 @@
 Input: A = [1, 0, 1, 0, 1, 1]
 Output: 1
 Explanation:
-After reversing the sixth coin, we achieve an alternating sequence of coins [1, 0, 1, 0, 1, 0).
+After reversing the sixth coin, we achieve an alternating sequence of coins [1, 0, 1, 0, 1, 0].
 
 Input: A = [1, 1, 0, 1, 1]
 Output: 2

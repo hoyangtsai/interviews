@@ -1,4 +1,6 @@
-# KKday Frontend EC Dashboard
+# KKday - Frontend EC Dashboard
+
+## Coding
 
 - [Read the letters](./task1/)
 - [Create a login form component in Vue](./task2/)

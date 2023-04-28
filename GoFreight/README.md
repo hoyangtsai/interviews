@@ -1,4 +1,6 @@
-## Problems
+## GoFreight
+
+## Coding
 
 - [Balancing Parentheses](1.balancing-parentheses/README.md)
 - [Count Binary Substrings](2.count-binary-substrings/README.md)
