@@ -35,6 +35,7 @@ Write an efficient algorithm for the following assumptions:
 ```js
 // solution.js
 
+
 function solution(S) {
   let count = 0;
   for (let i = 0; i < S.length;) {
@@ -47,4 +48,7 @@ function solution(S) {
   }
   return count;
 }
+
+console.log(5 === solution("X..X.X..X...X.X.X"))
+
 ```

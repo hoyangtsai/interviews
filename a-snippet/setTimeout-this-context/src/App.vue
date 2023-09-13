@@ -8,7 +8,7 @@
         <option value="Sunil">Sunil</option>
       </select>
     </label>
-    <h1>Welcome to {{ user }}’s profile!</h1>
+    <h1>Welcome to {{ user }}'s profile!</h1>
     <p>
       <ProfilePage :user="user" />
       <b> (Component setTimeout) </b>

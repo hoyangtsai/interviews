@@ -73,4 +73,8 @@ function solution(S) {
 
   return max;
 }
+
+// console.log(solution('<><??>>'))
+console.log(solution('<<??'))
+
 ```
